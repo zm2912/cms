@@ -1,27 +1,5 @@
 # DoraCMS 2.1.3
 
-![DoraCMS](https://www.html-js.cn/upload/images/ueditor/1041325089330696192.png "DoraCMS")
-
-## 2.1.3 版本更新
-1、优化了代码整体的目录结构 ++[重要]++  
-
-2、修复了后台文章列表编辑时文章作者和文章分类无法带出的问题  
-
-3、重构了服务端代码，使其具有前后台api分离的能力 ++[重要]++  
-
-4、支持最新稳定版nodejs（已通过 nodejs v10.15.0测试）++[重要]++  
-
-5、优化打包脚本，npm run build 执行速度提升30%  
-
-6、优化开发模式下修改文件后的自动重启速度  
-
-7、默认redis开关关闭，可以不开启。 ++[重要]++  
-
-8、修复了一些其他bug  
-
-
-
-
 注意：
 1、如果在开发环境下，只涉及到服务端调试，请使用：
 ```javascript
@@ -52,16 +30,6 @@ http://localhost:8080/apidoc
 3、nodejs 10.15.0 + express 4
 4、mongodb 4+
 ```
-
-演示地址： [前端开发俱乐部](https://www.html-js.cn)  
-
-后台登录： https://www.html-js.cn/dr-admin  
-测试账号：doracms/123456  
-
- [DoraCMS 2.1.3 尝鲜体验](https://www.html-js.cn/details/VmnGNiF4S.html)   
-
- [DoraCMS v2.1.2 Docker 版本（生产环境）](https://www.html-js.cn/details/Bkw5AepT4.html)  
-
 
 ## 目录结构
 
@@ -226,11 +194,6 @@ http://localhost:8080
 http://localhost:8080/dr-admin
 登录账号：doramart/123456    doracms/123456
 ```
-
-## 捐赠
-如果你发现DoraCMS很有用，可以请生哥喝杯咖啡(⊙o⊙)哦
-<img width="650" src="http://cdn.html-js.cn/payme.jpg" alt="">
-
 # LICENSE
 
 MIT
