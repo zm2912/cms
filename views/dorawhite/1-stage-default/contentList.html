@@ -1,0 +1,27 @@
+{% extends "../public/defaultTemp.html" %} {% block content %} {% import "../public/adsPannel.html" as adsPannel %}
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 main-container cmscase-pannel">
+            <div class="column-wrap">
+                <h1>DoraCMS案例展示</h1>
+                <div class="gitstar">
+                    <iframe src="https://ghbtns.com/github-btn.html?user=doramart&repo=DoraCMS&type=star&count=true"
+                        frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+                </div>
+            </div>
+            <div class="row cmscase-container">
+                <div class="col-md-12">
+
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        {% remote key="anli",api="ads/getOne",query='{"name":"anli"}' %}
+                        {{adsPannel.slider(anli)}}
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
